@@ -252,18 +252,12 @@ function renderTaskInMainPage(wholeDoc){
         
     })
 
-    const importanceMainPageBtns = document.getElementsByClassName('importance-main-page-btns')
     
-    for(let importanceBtn of importanceMainPageBtns){
-        importanceBtn.addEventListener('click', changeImportanceLevel)
-    }
 
     return taskDiv
 }
 
-function changeImportanceLevel(e){
-    console.log(e.target);
-}
+
 
 async function getFirstTaskFromDB(){
     const currentuser = auth.currentUser
