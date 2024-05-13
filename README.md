@@ -9,7 +9,7 @@ For, now GitHub is not available.
 
 You can use your email and password or if you don't have an account, create a new one using new email and password, then pressing CREATE ACCOUNT
 
-
+IMPORTANT: To log out you have to click on your profile icon!!!
 
 Features in the app:
 
