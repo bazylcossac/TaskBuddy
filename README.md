@@ -4,6 +4,20 @@ TaskBuddy is a task management application made by me using Firebase Cloud Fires
 
 I'm proud of this project because it is my first JavaScript project with hundreds of lines of code.
 
+To log in, you can use:
+  -Google account
+  -Facebook account
+  -For now, GitHub account is not available
+  -You can use your email and password
+  -Or create an account by entering a new email and password, then pressing CREATE ACCOUNT
+
+Features in the app:
+  -Only the task's author can see it
+  -Only the task's author can edit, delete, update, mark as done, and mark as undone the task
+  -Tasks are filtered by newest
+  -All information about tasks is stored in Firebase Cloud Firestore
+
+
 Here is a link to the app: https://taskbuddymanager.netlify.app
 
 Here are some screenshots:
