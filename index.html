@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>TaskBuddy</title>
+</head>
+<body>
+    <section id="logged-out-view">
+        <h1><div><span style="color:#97A0ED">Task</span><span style="color:#4255FF">Buddy</span><span style="color:#97A0ED; font-weight:800">></span><span style="color:#4255FF; font-weight: 800;">></span></h1>
+
+        <div id="app-slogan">
+            <p>Your personal task manager</p>
+        </div>
+
+        <div id="login-methods">
+                    <button id="login-with-google" class="provider-btn">
+                        <img src="./assets/loginIcons/Logo-google-icon-PNG.png" alt="google icon">
+                    </button>
+                    <button id="login-with-facebook" class="provider-btn">
+                        <img src="./assets/loginIcons/vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930698.png" alt="google icon">
+                    </button>
+                    <button id="login-with-github" class="provider-btn">
+                        <img src="./assets/loginIcons/pngwing.com.png" alt="google icon">
+                    </button>
+        </div>
+
+        <div id="auth-fields-email">
+            <div id="auth-inputs">
+                <input type="email" id="login-input-email" class="login-inputs" placeholder="example@example.com">
+                <input type="password" id="login-input-password" class="login-inputs" placeholder="**************">
+            </div>
+            <div id="auth-buttons">
+                <button id="sign-in-btn" class="loggin-btns">SIGN IN</button>
+                <button id="create-acc-btn" class="loggin-btns">CREATE ACCOUNT</button>
+            </div>
+
+    </section>
+
+    <section id="logged-in-view">
+        <div id="app-top-section">
+            <h2 class="cool-link" id="taskbuddy-main-page"><div><span style="color:#97A0ED">Task</span><span style="color:#4255FF">Buddy</span><span style="color:#97A0ED; font-weight:800">></span><span style="color:#4255FF; font-weight: 800;">></span></h2>
+            <div id="top-section-menu">
+                <div><a href="#"  class="cool-link"  id="menu-MyGroups">MyGroups</a></div>
+                <div><a href="#"  class="cool-link" id="menu-MyTasks">MyTasks</a></div>
+                <div><a href="#"  class="cool-link" id="menu-Profile">Profile</a></div>
+                <div><a href="#"  class="cool-link" id="menu-Settings">Settings</a></div>
+                <div><img src=""  id="user-profilePic"></div>
+            </div>
+        </div>
+        <div id="app-mid-section">
+            <div id="newest-tasks-container">
+                <div id="add-task-btn-container">
+                    <button id="add-task-btn">Add task</button>
+                </div>
+                <div id="new-tasks"></div>
+            </div>
+            <div id="app-work-section">
+                    <div id="no-tasks-yet">Time to Task someting!!!</div>
+            </div>
+        </div>
+        
+
+    </section>
+    <footer>
+        <p><a href="https://github.com/bazylcossac" target="_blank">Copyright © Michał Strojny 2024</a></p>
+        <div id="updates-popup">What's new?</div>
+    </footer>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
