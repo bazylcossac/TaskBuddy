@@ -12,6 +12,7 @@ To log in, you can use:
 -You can use your email and password
 -Or create an account by entering a new email and password, then pressing CREATE ACCOUNT
 
+
 Features in the app:
 
 -Only the task's author can see it
