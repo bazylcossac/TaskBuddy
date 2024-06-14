@@ -19,7 +19,7 @@ import { clearInputs } from "./index.js"
 
 
 const firebaseConfig = {
-        apiKey: "AIzaSyCzOp-vLE5xMR7IQ4StkmEy-Oa-SkP8oPE",
+        apiKey: "key_here",
         authDomain: "taskbuddy-dac4b.firebaseapp.com",
         projectId: "taskbuddy-dac4b",
         storageBucket: "taskbuddy-dac4b.appspot.com",
